@@ -46,7 +46,9 @@
   width: 1px; }
 
 [class^="btn"] {
-  text-align: center; }
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto; }
 
 .centered, .grid {
   float: none;
@@ -62,7 +64,7 @@
   padding-top: 30px; }
 
 [class*="grid__col--"] {
-  border-radius: 20px; }
+  border-radius: 5px; }
 
 * {
   box-sizing: border-box; }
@@ -550,19 +552,19 @@ template {
 .theme__colors.grid__col {
   width: 100%; }
   .theme__colors.grid__col--12 {
-    background-color: #b3ebf6; }
+    background-color: #5fede8; }
   .theme__colors.grid__col--8 {
-    background-color: #f1b1b3; }
+    background-color: #ffaf96; }
   .theme__colors.grid__col--7 {
-    background-color: #ffc6b5; }
+    background-color: #e87d80; }
   .theme__colors.grid__col--6 {
-    background-color: #29d5fb; }
+    background-color: #138aa2; }
   .theme__colors.grid__col--5 {
     background-color: #a4e3b7; }
   .theme__colors.grid__col--4 {
-    background-color: #d3f6fe; }
+    background-color: #a6eefd; }
   .theme__colors.grid__col--3 {
-    background-color: #d1c6e6; }
+    background-color: #b7a7d8; }
 
 @media (min-width: 769px) {
   .grid__col--1 {
@@ -609,7 +611,9 @@ template {
     float: left;
     min-height: 1px;
     padding-left: 10px;
-    padding-right: 10px; }
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px; }
     [class^="grid__col--"] + [class^="grid__col--"] {
       margin-left: 2%; }
     [class^="grid__col--"]:last-of-type {

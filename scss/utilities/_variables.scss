@@ -71,6 +71,8 @@ $base__font-size : 16px;
 $base__line      : 24px;
 $letter-space    : 1px;
 
+//Radius for grid columns
+$border--radius	: 5px;
 // Border radius
 
 $br--default    : .4em;
@@ -101,11 +103,11 @@ $br-rounded         : 50%;
 
 //grid colors
 	 $col-colors :(
-			 12 : lighten($fountain-blue, 18%),
-			 8  : lighten($sunglo, 14%),
-			 7  : lighten($coral, 20%),
-			 6  : darken($lblue, 8%),
+			 12 : lighten($eblue, 18%),
+			 8  : lighten($coral, 14%),
+			 7  : lighten($sunglo, 2%),
+			 6  : darken($fountain-blue, 30%),
 			 5  : lighten($emerald, 18%),
-			 4  : lighten($lblue, 26%),
-			 3  : lighten($purple-majesty, 22%)
+			 4  : lighten($lblue, 17%),
+			 3  : lighten($purple-majesty, 13%)
 	 );

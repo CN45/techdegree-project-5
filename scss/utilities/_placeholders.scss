@@ -33,6 +33,8 @@
 
 %center-align {
 	text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 // For pseudo-elements
@@ -61,7 +63,7 @@
   padding-top: 30px;
 }
 [class*="grid__col--"] {
-  border-radius: 20px;
+  border-radius: $border--radius;
 }
 //Placeholders
 
