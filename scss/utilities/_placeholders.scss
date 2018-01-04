@@ -60,7 +60,7 @@
   display: flex;
   padding-top: 30px;
 }
-.grid__col {
+[class*="grid__col--"] {
   border-radius: 20px;
 }
 //Placeholders
