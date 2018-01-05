@@ -1,37 +1,18 @@
 // Buttons
 // ==========================================================================
-
-  //*************************************************** Create btn--colors classes
-  .btn {
-    @include bg-colors($ui-colors);
-  }
-
-  //*************************************************************** Format bottons
-
-  [class^="btn--"] {
-      @extend %btn;
-      margin-bottom: em(20px, 14px);
-      text-align: center;
-      width: 100%;
-
-      @include mq(medium) {
-        width: 15%;
-        display: inline-block;
-        margin: 10px 25px;
-        }
-      }
-  /*[class^="btn"] {
-    @extend %text-btn;
-    @extend %center-element;
-    @extend %btn;
+//*************************************************** Create btn--colors classes
+.btn {
+  @include bg-colors($ui-colors);
+}
+//*************************************************************** Format bottons
+[class^="btn--"] {
+  @extend %btn;
   margin-bottom: em(20px, 14px);
-  @media (min-width: 1px) and (max-width: 768px) {
-  	width: 100%;
-  }
-  @media (min-width: 769px) {
-    width: auto;
+  text-align: center;
+  width: 100%;
+  @include mq(medium) {
+    width: 15%;
     display: inline-block;
-    @include doubly(90px);
+    margin: 10px 25px;
   }
 }
-*/

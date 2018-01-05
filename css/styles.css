@@ -19,7 +19,7 @@
   transition: opacity 0.3s;
   display: block; }
   [class^="btn--"]:hover {
-    opacity: .75; }
+    opacity: 0.75; }
   [class^="btn--"]:active {
     opacity: initial; }
 
@@ -492,35 +492,11 @@ template {
       display: inline-block;
       margin: 10px 25px; } }
 
-  /*[class^="btn"] {
-    @extend %text-btn;
-    @extend %center-element;
-    @extend %btn;
-  margin-bottom: em(20px, 14px);
-  @media (min-width: 1px) and (max-width: 768px) {
-  	width: 100%;
-  }
-  @media (min-width: 769px) {
-    width: auto;
-    display: inline-block;
-    @include doubly(90px);
-  }
-}
-*/
 .form {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  color: #797e83;
-  /*
-      .btn--default {
-          @extend %btn;
-          background-color: $lblue;
-          color: $white;
-          text-transform: uppercase;
-          font-weight: $font-weight--bold;
-      }
-  */ }
+  color: #797e83; }
   .form__label {
     display: block;
     margin-bottom: 0.625em; }
@@ -654,7 +630,7 @@ template {
   font-size: 1.125em;
   font-weight: 300;
   text-align: center;
-  padding: .8em;
+  padding: 0.8em;
   border-radius: 0.4em;
   text-decoration: none; }
   .nav a:hover {

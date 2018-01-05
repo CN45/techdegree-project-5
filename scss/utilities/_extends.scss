@@ -2,7 +2,6 @@
 // Extends
 // ==========================================================================
 
-
 %clearfix {
 	&:after {
 		content: "";
@@ -18,29 +17,30 @@
 // Nav-Items
 
 %text-btn {
-  text-align: center;
-  color: $white;
-  text-transform: uppercase;
-  font-weight: $font-weight--bold;
-  font-size: $font-size--btn;
+	text-align: center;
+	color: $white;
+	text-transform: uppercase;
+	font-weight: $font-weight--bold;
+	font-size: $font-size--btn;
 }
 // Buttons
 
-
 %btn {
-  padding: 15px 30px;
-  border: 0;
-  border-radius : $br--default;
-  color: $white;
-  text-transform: uppercase;
-  font-size : em(14px);
-  font-weight: $font-weight--medium;
-  transition: opacity $trns-duration;
-  display: block;
-  &:hover {
-    opacity: .75;
-  }
-  &:active {
-    opacity: initial;
-  }
+	padding: 15px 30px;
+	border: 0;
+	border-radius: $br--default;
+	color: $white;
+	text-transform: uppercase;
+	font-size: em(14px);
+	font-weight: $font-weight--medium;
+	transition: opacity $trns-duration;
+	display: block;
+
+	&:hover {
+		opacity: 0.75;
+	}
+
+	&:active {
+		opacity: initial;
+	}
 }
