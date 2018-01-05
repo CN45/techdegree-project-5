@@ -7,9 +7,22 @@
   }
 
   //*************************************************************** Format bottons
-  [class^="btn"] {
+
+  [class^="btn--"] {
+      @extend %btn;
+      margin-bottom: em(20px, 14px);
+      text-align: center;
+      width: 100%;
+
+      @include mq(medium) {
+        width: 15%;
+        display: inline-block;
+        margin: 10px 25px;
+        }
+      }
+  /*[class^="btn"] {
     @extend %text-btn;
-    @extend %center-align;
+    @extend %center-element;
     @extend %btn;
   margin-bottom: em(20px, 14px);
   @media (min-width: 1px) and (max-width: 768px) {
@@ -18,6 +31,7 @@
   @media (min-width: 769px) {
     width: auto;
     display: inline-block;
-    @include doubly(20px);
+    @include doubly(90px);
   }
 }
+*/

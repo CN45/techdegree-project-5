@@ -78,6 +78,7 @@ $border--radius	: 5px;
 $br--default    : .4em;
 $br--round      : 50%;
 
+
 // Transitions
 
 $trns-duration  : .3s;
@@ -91,11 +92,12 @@ $path--rel      : "../img";
 $g-col-width    : 65px;
 $g-gutter-width : 20px;
 $g-col-count    : 12;
-$g-cont-max-w   : 1050px;
+$g-cont-max-w   : 10px;
 
 // Breakpoints
-$brkpoint-sm        : 480px;
-$brkpoint-lg        : 1400px;
+$brkpoint-sm        : 768px;
+$brkpoint-md 			  : 769px;
+$brkpoint-lg        : 1100px;
 
 //Button Radius
 $br-default         : .4em;

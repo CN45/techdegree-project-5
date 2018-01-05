@@ -8,14 +8,7 @@
   margin: 0 auto;
   display: block; }
 
-[class^="btn"] {
-  text-align: center;
-  color: #fff;
-  text-transform: uppercase;
-  font-weight: 500;
-  font-size: 15px; }
-
-[class^="btn"] {
+[class^="btn--"] {
   padding: 15px 30px;
   border: 0;
   border-radius: 0.4em;
@@ -25,9 +18,9 @@
   font-weight: 400;
   transition: opacity 0.3s;
   display: block; }
-  [class^="btn"]:hover {
+  [class^="btn--"]:hover {
     opacity: .75; }
-  [class^="btn"]:active {
+  [class^="btn--"]:active {
     opacity: initial; }
 
 .grid:after {
@@ -45,11 +38,6 @@
   position: absolute;
   width: 1px; }
 
-[class^="btn"] {
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto; }
-
 .centered, .grid {
   float: none;
   margin-left: auto;
@@ -60,7 +48,6 @@
   margin-right: auto; }
 
 .grid__row {
-  display: flex;
   padding-top: 30px; }
 
 [class*="grid__col--"] {
@@ -495,18 +482,31 @@ template {
 .btn--info {
   background-color: #9279c3; }
 
-[class^="btn"] {
-  margin-bottom: 1.4285714286em; }
-  @media (min-width: 1px) and (max-width: 768px) {
-    [class^="btn"] {
-      width: 100%; } }
+[class^="btn--"] {
+  margin-bottom: 1.4285714286em;
+  text-align: center;
+  width: 100%; }
   @media (min-width: 769px) {
-    [class^="btn"] {
-      width: auto;
-      display: inline-block; }
-      [class^="btn"] + [class^="btn"] {
-        margin-left: 20px; } }
+    [class^="btn--"] {
+      width: 15%;
+      display: inline-block;
+      margin: 10px 25px; } }
 
+  /*[class^="btn"] {
+    @extend %text-btn;
+    @extend %center-element;
+    @extend %btn;
+  margin-bottom: em(20px, 14px);
+  @media (min-width: 1px) and (max-width: 768px) {
+  	width: 100%;
+  }
+  @media (min-width: 769px) {
+    width: auto;
+    display: inline-block;
+    @include doubly(90px);
+  }
+}
+*/
 .form {
   display: flex;
   flex-direction: column;
@@ -533,7 +533,7 @@ template {
     border-bottom: 0.4375em solid #18D8D1; }
     .form__input:focus {
       background-color: #68eee9; }
-  @media (min-width: 1400px) {
+  @media (min-width: 1100px) {
     .form {
       margin-left: 1.875em; } }
 
@@ -543,7 +543,7 @@ template {
     width: 100%; }
   @media (min-width: 1100px) {
     .grid {
-      max-width: 1050px; } }
+      max-width: 10px; } }
 
 .container {
   width: 90%;
@@ -604,6 +604,11 @@ template {
     width: 100%; } }
 @media (min-width: 1px) and (max-width: 768px) {
   [class^="grid__col--"] {
+    min-height: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     margin-top: 0.75em;
     margin-bottom: 0.75em; } }
 @media (min-width: 769px) {
@@ -628,7 +633,7 @@ template {
   width: 100%;
   padding: 0.75em;
   border: 1px solid #c8cbcd; }
-  @media (min-width: 1400px) {
+  @media (min-width: 1100px) {
     .img--frame {
       max-width: 26.5625em;
       margin-left: 3.125em; } }
@@ -639,7 +644,7 @@ template {
   padding-bottom: 1.875em;
   margin-left: auto;
   margin-right: auto; }
-  @media (min-width: 1400px) {
+  @media (min-width: 1100px) {
     .img--logo {
       padding: 0; } }
 
@@ -658,7 +663,7 @@ template {
 
 .nav {
   margin-bottom: 60px; }
-  @media (min-width: 1400px) {
+  @media (min-width: 1100px) {
     .nav {
       display: flex;
       justify-content: space-between;
