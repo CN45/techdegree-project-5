@@ -72,3 +72,14 @@
 		@content;
 	}
 }
+@mixin form {
+	.btn--default {
+		min-height: 10px;
+    padding-left: 10px;
+    padding-right: 1px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+		margin-top: em(12px);
+    margin-bottom: em(12px);
+	}
+}
