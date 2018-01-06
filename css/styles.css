@@ -492,6 +492,10 @@ template {
       display: inline-block;
       margin: 10px 25px; } }
 
+[class^="btn--"] {
+  width: 100%;
+  display: inline-block; }
+
 .form {
   display: flex;
   flex-direction: column;

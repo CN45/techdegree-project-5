@@ -1,16 +1,18 @@
 // Forms
-
+[class^="btn--"] {
+    width: 100%;
+  display: inline-block;
+}
 .form {
-  @include flexy($dir: column, $just: center);
-  color: $grey;
-  @include e(label) {
-    @include m(hidden) {
-      @extend .srt;
-    }
+ @include flexy($dir: column, $just: center);
+ color: $grey;
+ @include e(label) {
+   @include m(hidden) {
+    @extend .srt;
+   }
     display: block;
-    margin-bottom: em(10px);
+  margin-bottom: em(10px);
   }
-
 
   @include e(input) {
     font-size: em(18px);
@@ -26,6 +28,6 @@
   }
 
   @include mq(large) {
-    margin-left: em(30px);
+   margin-left: em(30px);
   }
 }

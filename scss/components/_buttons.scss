@@ -11,8 +11,8 @@
   text-align: center;
   width: 100%;
   @include mq(medium) {
-    width: 15%;
-    display: inline-block;
-    margin: 10px 25px;
+  width: 15%;
+  display: inline-block;
+   margin: 10px 25px;
+   }
   }
-}
