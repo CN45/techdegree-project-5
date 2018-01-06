@@ -492,7 +492,7 @@ template {
       display: inline-block;
       margin: 10px 25px; } }
 
-[class^="btn--"] {
+.form [class^="btn--"] {
   width: 100%;
   display: inline-block; }
 
