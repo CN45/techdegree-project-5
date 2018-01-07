@@ -48,7 +48,8 @@
   margin-right: auto; }
 
 .grid__row {
-  padding-top: 30px; }
+  padding-top: 30px;
+  padding-bottom: 20px; }
 
 [class*="grid__col--"] {
   border-radius: 5px; }
@@ -601,9 +602,10 @@ template {
     padding-top: 10px;
     padding-bottom: 10px; }
     [class^="grid__col--"] + [class^="grid__col--"] {
-      margin-left: 2%; }
-    [class^="grid__col--"]:last-of-type {
-      float: right; } }
+      margin-left: 2%; } }
+
+.grid__col--7.theme__colors.centered, .grid__col--7.theme__colors.grid {
+  float: none; }
 
 .img--avatar {
   display: block;
