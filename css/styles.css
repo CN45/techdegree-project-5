@@ -70,17 +70,6 @@ body {
   width: 90%;
   margin: 0 auto; }
 
-blockquote {
-  font-weight: 300;
-  font-style: italic;
-  font-size: 1.25em; }
-  @media (min-width: 769px) {
-    blockquote {
-      margin: 1.3333333333em 0;
-      padding: 0 0 0 5%;
-      border-left: 0.3333333333em solid palette(grey, xx-light);
-      font-size: 1.5em; } }
-
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -679,15 +668,6 @@ p {
   font-size: 1.25em;
   font-weight: 300;
   margin-bottom: 0.3125em; }
-
-.blockquote {
-  font-size: 1.45em;
-  font-style: italic;
-  line-height: 1.25em;
-  margin: 2.1875em;
-  padding-left: 1.25em;
-  border-radius: 0.4em;
-  border-left: 10px solid #18D8D1; }
 
 a {
   color: #61D5ED; }
